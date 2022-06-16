@@ -1,0 +1,18 @@
+.card {
+    margin: 30px;
+    backdrop-filter: blur(14px);
+    background-color: rgba(255, 255, 255, 0.938);
+    color: #090932;
+    font-size: larger;
+    .card-body{
+        .card-title{
+            color: #78565d;
+            text-shadow: white 2px 5px;
+            font-size: 40px;
+            font-family:cursive;
+        }
+    }
+    .yee{
+        color: black;
+    }
+}

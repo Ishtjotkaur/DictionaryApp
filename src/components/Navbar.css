@@ -1,0 +1,55 @@
+nav .container .link-logo .img-src {
+    width : 120px ;
+    height: 60px;
+    margin : 5px 5px ;
+    object-fit: cover;
+}
+nav .container{
+    flex:3;
+}
+.link-logo{
+ display: flex;
+ align-items: center;
+ text-decoration: none;
+}
+
+.link-logo h3{
+    color: rgb(171 ,125, 255) ;
+ }
+
+nav {
+    background-color: #090932 ;
+    position : sticky;
+    top:0px;
+    z-index: 1000 ;
+    margin: auto;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links ul {
+    display: flex;
+    color: rgb(171 ,125, 255) ;
+    align-items: center;
+    margin:auto 0px ;
+}
+.nav-links {
+    width: 30%;
+    border-left : 1px solid; 
+    border-color: grey;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    flex:9;
+}
+.nav-links li {
+    list-style: none;
+    margin : auto 6px ;
+}
+nav .logout{
+    display: flex;
+    flex:3;
+    color: rgb(171 ,125, 255) ;
+    justify-content: right;
+    
+}
